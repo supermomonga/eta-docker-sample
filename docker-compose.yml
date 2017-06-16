@@ -1,0 +1,11 @@
+version: '3'
+services:
+  app:
+    build: .
+    # command: eta app.hs
+    # command: echo hi
+    # command: bash
+    # command: eta --help
+    # command: ls -lsa
+    # command: whoami
+    # command: ls -lsa
