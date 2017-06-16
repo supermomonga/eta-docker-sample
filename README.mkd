@@ -1,0 +1,21 @@
+
+## Requirements
+
+- Docker
+- docker-compose (optional)
+
+## How to run sample Hello World program
+
+### Using docker command
+
+```
+docker build -t eta-sample .
+docker run --rm eta-sample
+```
+
+### Using docker-compose (easy way)
+
+```
+docker-compose build
+docker-compose up
+```
